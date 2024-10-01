@@ -1,0 +1,57 @@
+ 
+.user-details-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details-container h2 {
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .user-details-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .user-details-container span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  button.back-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button.back-button:hover {
+    background-color: #45a049;
+  }
+   
+  @media (max-width: 768px) {
+    .user-details-container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .user-details-container p {
+      font-size: 16px;
+    }
+  
+    button.back-button {
+      padding: 8px 16px;
+    }
+  }
+  
